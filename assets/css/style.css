@@ -56,4 +56,8 @@ h2::after {
 .ff-2 {
   font-family: "Courgette";
 }
+
+.bg-main {
+  background: url("../img/main_bg.jpg");
+}
 /*# sourceMappingURL=style.css.map */
