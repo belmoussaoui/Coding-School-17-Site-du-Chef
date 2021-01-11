@@ -4,8 +4,8 @@ Site à reproduire avec les conditions suivantes:
 - utiliser le framework **Bootstrap**;
 - utiliser uniquement **Sass** pour le **CSS**;
     - obligation d'utiliser des variables **Sass** et des **@import**.
-- le site doit être entièrement en **responsive**;
-- le porjet doit être sur **git** (avec minimum 10 commits faits de manière régulière).
+- le site doit être entièrement en **responsif**;
+- le projet doit être sur **git** (avec minimum 10 commits faits de manière régulière).
 
 ![](site-du-chef.png)
 
