@@ -10,9 +10,42 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
-<body>
+<body style="background-color: bisque;">
+    <div class="banner-hdr"></div>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner text-center p-5">
+            <div class="carousel-item active">
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, similique.
+                </p>
+            </div>
+            <div class="carousel-item">
+                <p>
+                    text2
+                </p>
+            </div>
+            <div class="carousel-item">
+                <p>
+                    text3
+                </p>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </a>
+    </div>
 
-    <section class="bg-main py-5" style="height: 1000px;">
+    <!-- <section class="bg-main py-5" style="height: 1000px;">
         <div class="container bg-light text-center position-relative border" style="height:100%">
             <img src="./assets/img/box-left-top.png" alt="" class="start-0 position-absolute">
             <img src="./assets/img/box-right-top.png" alt="" class="end-0 position-absolute">
@@ -26,8 +59,8 @@
             <button class="btn-primary">Purchase Theme</button>
             <button class="btn-secondary">Learn More</button>
         </div>
-    </section>
-    
+    </section> -->
+
 
     <script src="./node_modules/@popperjs/core/dist/umd/popper.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>

@@ -4,6 +4,25 @@ body {
   font-family: "Lato", sans-serif, sans-serif;
 }
 
+.ff-1 {
+  font-family: "Lato", sans-serif, sans-serif;
+}
+
+.ff-2 {
+  font-family: "Courgette";
+}
+
+.bg-main {
+  background: url("../img/main_bg.jpg");
+}
+
+.banner-hdr {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../img/banner1.jpg") no-repeat center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/banner1.jpg") no-repeat center;
+  height: 890px;
+  background-size: cover;
+}
+
 button {
   text-transform: uppercase;
   padding: 1rem 2rem;
@@ -47,17 +66,5 @@ h2::after {
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   bottom: -1rem;
-}
-
-.ff-1 {
-  font-family: "Lato", sans-serif, sans-serif;
-}
-
-.ff-2 {
-  font-family: "Courgette";
-}
-
-.bg-main {
-  background: url("../img/main_bg.jpg");
 }
 /*# sourceMappingURL=style.css.map */

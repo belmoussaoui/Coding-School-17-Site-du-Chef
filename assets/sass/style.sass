@@ -3,46 +3,6 @@
 body
     font-family: $font-family-primary, sans-serif
 
-// components
-
-// button
-button
-    text-transform: uppercase
-    padding: 1rem 2rem
-    border-radius: 100px
-    border: none
-    font-size: 0.8rem
-
-.btn-primary
-    background-color: $primary
-    color: white
-
-.btn-primary
-    background-color: darken(white, 5%)
-    color: black
-
-// h2
-h2
-    text-align: center
-    font-family: $font-family-secondary
-    text-transform: capitalize
-    font-size: 2rem
-    position: relative
-    margin: 50px 0
-    span
-        font-size: 3rem
-        color: $primary
-        text-transform: uppercase
-    &::after
-        content: ''
-        background: url("../img/decoration_line.png") no-repeat
-        width: 442px
-        height: 13px
-        position: absolute
-        left: 50%
-        transform: translateX(-50%)
-        bottom: -1rem
-
 
 // classes
 .ff-1
@@ -54,9 +14,20 @@ h2
 .bg-main
     background: url("../img/main_bg.jpg")
 
-.box-lt
-    // position: absolute
-    // left: 0
+// mixins
+@mixin bg-img ($url, $height)
+    background: url($url) no-repeat center
+    height: $height
+    background-size: cover
+
+// header
+
+.banner-hdr
+    // https://stackoverflow.com/a/26621579
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/banner1.jpg') no-repeat center
+    height: 890px
+    background-size: cover
+
 
 @import ./components
 @import ./pages/_header
