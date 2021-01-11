@@ -4,6 +4,16 @@ body {
   font-family: "Lato", sans-serif, sans-serif;
 }
 
+h1 {
+  font-family: "Courgette";
+  color: white;
+  font-size: 3.5rem;
+}
+
+h1 .fs-big {
+  font-size: 5rem;
+}
+
 .ff-1 {
   font-family: "Lato", sans-serif, sans-serif;
 }
