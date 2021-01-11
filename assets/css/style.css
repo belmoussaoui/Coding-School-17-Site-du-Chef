@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+body {
+  font-family: "Lato", sans-serif, sans-serif;
+}
+
+button {
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+  border-radius: 100px;
+  border: none;
+  font-size: 0.8rem;
+}
+
+.btn-primary {
+  background-color: #B53B44;
+  color: white;
+}
+
+.btn-primary {
+  background-color: #f2f2f2;
+  color: black;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Courgette";
+  text-transform: capitalize;
+  font-size: 2rem;
+  position: relative;
+  margin: 50px 0;
+}
+
+h2 span {
+  font-size: 3rem;
+  color: #B53B44;
+  text-transform: uppercase;
+}
+
+h2::after {
+  content: '';
+  background: url("../img/decoration_line.png") no-repeat;
+  width: 442px;
+  height: 13px;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: -1rem;
+}
+
+.ff-1 {
+  font-family: "Lato", sans-serif, sans-serif;
+}
+
+.ff-2 {
+  font-family: "Courgette";
+}
+/*# sourceMappingURL=style.css.map */
