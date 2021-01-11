@@ -10,40 +10,44 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
-<body style="background-color: bisque;">
-    <div class="banner-hdr"></div>
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
-            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
-            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner text-center p-5">
-            <div class="carousel-item active">
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, similique.
-                </p>
+<body>
+    <header class="banner-hdr">
+        <nav class="position-absolute"> 
+            text <br>
+            <br>
+            <br>
+            <br>
+            <br>test
+        </nav>
+        <div id="carousel-indicators" class="carousel slide h-100" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-bs-target="#carousel-indicators" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#carousel-indicators" data-bs-slide-to="1"></li>
+                <li data-bs-target="#carousel-indicators" data-bs-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner text-center d-flex align-items-center h-100">
+                <div class="carousel-item active">
+                    <h2><span>Our</span> story1</h2>
+                </div>
+                <div class="carousel-item">
+                    <h2><span>Our</span> story2</h2>
+                </div>
+                <div class="carousel-item">
+                    <h2><span>Our</span> story3</h2>
+                </div>
             </div>
-            <div class="carousel-item">
-                <p>
-                    text2
-                </p>
-            </div>
-            <div class="carousel-item">
-                <p>
-                    text3
-                </p>
-            </div>
+            <a class="carousel-control-prev" href="#carousel-indicators" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel-indicators" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </a>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </a>
-    </div>
+
+    </header>
+    
 
     <!-- <section class="bg-main py-5" style="height: 1000px;">
         <div class="container bg-light text-center position-relative border" style="height:100%">
