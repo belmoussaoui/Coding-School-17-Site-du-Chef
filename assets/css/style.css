@@ -4398,6 +4398,12 @@ h2::after {
   bottom: -0.5rem;
 }
 
+@media (max-width: 442px) {
+  h2::after {
+    display: none;
+  }
+}
+
 #header-top {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url("../img/banner1.jpg") no-repeat center;
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/banner1.jpg") no-repeat center;
@@ -4511,14 +4517,14 @@ h2::after {
 
 .book-form {
   background: url("../img/book_table_bg.jpg") top no-repeat;
-  height: 530px;
+  background-size: cover;
   max-width: 770px;
   border-radius: 20px;
 }
 
 .book-form input, .book-form select {
   border: none;
-  width: 250px;
+  min-width: 250px;
   height: 40px;
   border-radius: 10px;
   padding-left: 10px;
@@ -4573,7 +4579,7 @@ h2::after {
 #testimonials {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("../img/testimonials_background.jpg");
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/testimonials_background.jpg");
-  height: 554px;
+  background-size: cover;
 }
 
 #testimonials img {
@@ -4621,7 +4627,7 @@ h2::after {
   border-top: 20px solid transparent;
   -o-border-image: url("../img/footer_bottom_decoration_img.png") 30 round;
      border-image: url("../img/footer_bottom_decoration_img.png") 30 round;
-  height: 315px;
+  background-size: cover;
   font-size: 0.9rem;
 }
 
