@@ -4528,6 +4528,12 @@ h2::after {
   border-top: solid rgba(255, 255, 255, 0.3) 1px;
 }
 
+@media (max-width: 442px) {
+  #book h2:first-child {
+    padding-top: 50px;
+  }
+}
+
 .book-form {
   background: url("../img/book_table_bg.jpg") top no-repeat;
   background-size: cover;
