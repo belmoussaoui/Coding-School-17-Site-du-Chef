@@ -16,28 +16,6 @@ body {
   background: url("../img/main_bg.jpg");
 }
 
-#footer-bottom .footer-content {
-  padding-top: 30px;
-  background: url("../img/footer_background.jpg") top;
-  border-top: 20px solid transparent;
-  -o-border-image: url("../img/footer_bottom_decoration_img.png") 30 round;
-     border-image: url("../img/footer_bottom_decoration_img.png") 30 round;
-  height: 315px;
-  font-size: 0.9rem;
-}
-
-#footer-bottom .footer-content h4 {
-  text-transform: uppercase;
-}
-
-#footer-bottom .footer-content .badge {
-  border-radius: 100px;
-  font-size: 0.8rem;
-  padding: 10px 20px;
-  margin: 5px 5px;
-  border: solid 1px white;
-}
-
 button {
   text-transform: uppercase;
   padding: 1rem 2rem;
@@ -47,37 +25,37 @@ button {
 }
 
 .btn-primary {
-  background-color: #B53B44;
-  color: white;
+  background-color: white;
+  color: black;
 }
 
-.btn-primary {
-  background-color: #f2f2f2;
-  color: black;
+.btn-secondary {
+  background-color: #c42d40;
+  color: white;
 }
 
 h1 {
   font-family: "Courgette", cursive;
   color: white;
-  font-size: 3.5rem;
+  font-size: 3rem;
 }
 
 h1 .fs-big {
-  font-size: 5rem;
+  font-size: 4.5rem;
 }
 
 h2 {
   text-align: center;
   font-family: "Courgette", cursive;
   text-transform: capitalize;
-  font-size: 2.5rem;
+  font-size: 2.25rem;
   position: relative;
   margin: 50px 0;
 }
 
 h2 span {
-  font-size: 3.5rem;
-  color: #B53B44;
+  font-size: 3.1rem;
+  color: #c42d40;
   text-transform: uppercase;
 }
 
@@ -90,7 +68,7 @@ h2::after {
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  bottom: -1rem;
+  bottom: -0.5rem;
 }
 
 #header-top {
@@ -113,7 +91,7 @@ h2::after {
 }
 
 .nav-menu a {
-  color: grey;
+  color: #ccc;
   position: relative;
   background-color: white !important;
   padding: 0 60px;
@@ -143,11 +121,11 @@ h2::after {
 }
 
 .nav-menu .active {
-  color: #B53B44 !important;
+  color: #c42d40 !important;
 }
 
 .nav-menu .active:after {
-  background-color: #B53B44;
+  background-color: #c42d40;
 }
 
 .menu-item {
@@ -169,7 +147,7 @@ h2::after {
 }
 
 .menu-item .price {
-  color: #B53B44;
+  color: #c42d40;
   padding: 0px 16px;
   font-size: 1.2rem;
   font-weight: 500;
@@ -231,7 +209,7 @@ h2::after {
   left: 50%;
   -webkit-transform: translate(-50%, 50%);
           transform: translate(-50%, 50%);
-  background-color: #B53B44;
+  background-color: #c42d40;
   color: white;
   font-size: 1.2rem;
   font-weight: 300;
@@ -271,7 +249,7 @@ h2::after {
 
 #testimonials .client-card span {
   font-size: 1.1rem;
-  color: #A3363F;
+  color: #c42d40;
   display: block;
   margin: 5px 0;
 }
@@ -289,5 +267,27 @@ h2::after {
 
 .contact-box p:last-of-type {
   margin-bottom: 0;
+}
+
+#footer-bottom .footer-content {
+  padding-top: 30px;
+  background: url("../img/footer_background.jpg") top;
+  border-top: 20px solid transparent;
+  -o-border-image: url("../img/footer_bottom_decoration_img.png") 30 round;
+     border-image: url("../img/footer_bottom_decoration_img.png") 30 round;
+  height: 315px;
+  font-size: 0.9rem;
+}
+
+#footer-bottom .footer-content h4 {
+  text-transform: uppercase;
+}
+
+#footer-bottom .footer-content .badge {
+  border-radius: 100px;
+  font-size: 0.8rem;
+  padding: 10px 20px;
+  margin: 5px 5px;
+  border: solid 1px white;
 }
 /*# sourceMappingURL=style.css.map */
