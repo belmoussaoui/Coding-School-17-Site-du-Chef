@@ -81,6 +81,12 @@ h2::after {
      border-image: url("../img/bottom_decoration_img.png") 30 round;
 }
 
+#header-top .carousel-indicators li {
+  width: 15px;
+  height: 15px;
+  border-radius: 100% !important;
+}
+
 #nav-top ul li {
   font-size: 0.9rem;
   color: white;
