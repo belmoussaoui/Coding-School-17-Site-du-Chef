@@ -13,25 +13,32 @@ body
 .bg-main
     background: url("../img/main_bg.jpg")
 
-.book-form
-    background: url("../img/book_table_bg.jpg") top no-repeat
-    height: 530px
-    max-width: 770px
-    border-radius: 20px
-    input, select
-        border: none
-        width: 250px
-        height: 40px
-        border-radius: 10px
-        padding-left: 10px
-        font-size: 0.9rem
+// blog
+.blog
+    img
+        border-radius: 20px
+        border: solid 5px rgba(0, 0, 0, 0.1)
+    .social-blog
+        position: absolute
+        bottom: 0
+        left: 50%
+        transform: translate(-50%, 50%)
+        background-color: $primary
+        color: white
+        font-size: 1.2rem
+        font-weight: 300
         text-transform: capitalize
-        color: rgba(0,0,0, 0.6)
-        &::placeholder
-            color: black
+        width: 80%
+        padding: 0.9em 0.25em 0.6em 
+        border-radius: 20px
+        span
+            font-size: 1.5rem
+            font-weight: bold
+
 
 @import ./components
 @import ./pages/_header
 @import ./pages/_menu
 @import ./pages/_chef
+@import ./pages/_book
 @import ./pages/_footer

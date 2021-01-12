@@ -16,38 +16,30 @@ body {
   background: url("../img/main_bg.jpg");
 }
 
-.book-form {
-  background: url("../img/book_table_bg.jpg") top no-repeat;
-  height: 530px;
-  max-width: 770px;
+.blog img {
+  border-radius: 20px;
+  border: solid 5px rgba(0, 0, 0, 0.1);
+}
+
+.blog .social-blog {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, 50%);
+          transform: translate(-50%, 50%);
+  background-color: #B53B44;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 300;
+  text-transform: capitalize;
+  width: 80%;
+  padding: 0.9em 0.25em 0.6em;
   border-radius: 20px;
 }
 
-.book-form input, .book-form select {
-  border: none;
-  width: 250px;
-  height: 40px;
-  border-radius: 10px;
-  padding-left: 10px;
-  font-size: 0.9rem;
-  text-transform: capitalize;
-  color: rgba(0, 0, 0, 0.6);
-}
-
-.book-form input::-webkit-input-placeholder, .book-form select::-webkit-input-placeholder {
-  color: black;
-}
-
-.book-form input:-ms-input-placeholder, .book-form select:-ms-input-placeholder {
-  color: black;
-}
-
-.book-form input::-ms-input-placeholder, .book-form select::-ms-input-placeholder {
-  color: black;
-}
-
-.book-form input::placeholder, .book-form select::placeholder {
-  color: black;
+.blog .social-blog span {
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 button {
@@ -196,5 +188,39 @@ h2::after {
 
 #chef p {
   border-top: solid rgba(255, 255, 255, 0.3) 1px;
+}
+
+.book-form {
+  background: url("../img/book_table_bg.jpg") top no-repeat;
+  height: 530px;
+  max-width: 770px;
+  border-radius: 20px;
+}
+
+.book-form input, .book-form select {
+  border: none;
+  width: 250px;
+  height: 40px;
+  border-radius: 10px;
+  padding-left: 10px;
+  font-size: 0.9rem;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.book-form input::-webkit-input-placeholder, .book-form select::-webkit-input-placeholder {
+  color: black;
+}
+
+.book-form input:-ms-input-placeholder, .book-form select:-ms-input-placeholder {
+  color: black;
+}
+
+.book-form input::-ms-input-placeholder, .book-form select::-ms-input-placeholder {
+  color: black;
+}
+
+.book-form input::placeholder, .book-form select::placeholder {
+  color: black;
 }
 /*# sourceMappingURL=style.css.map */
