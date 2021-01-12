@@ -4549,6 +4549,12 @@ h2::after {
   color: black;
 }
 
+@media (max-width: 350px) {
+  .book-form input, .book-form select {
+    min-width: 180px;
+  }
+}
+
 .blog img {
   border-radius: 20px;
   border: solid 5px rgba(0, 0, 0, 0.1);
